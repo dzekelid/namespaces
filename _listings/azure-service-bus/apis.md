@@ -27,7 +27,7 @@ apis:
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-namespaces-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/

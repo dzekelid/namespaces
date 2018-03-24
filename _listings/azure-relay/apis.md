@@ -29,7 +29,7 @@ apis:
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-get.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/

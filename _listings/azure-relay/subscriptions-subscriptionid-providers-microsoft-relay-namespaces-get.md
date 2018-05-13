@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Relay API
-  description: Use these API to manage Azure Relay resources through Azure Resources
-    Manager.
+  title: Azure Relay API Namespaces List
+  description: Lists all the available namespaces within the subscription irrespective
+    of the resourceGroups.
   version: 1.0.0
 host: management.azure.com
 basePath: /

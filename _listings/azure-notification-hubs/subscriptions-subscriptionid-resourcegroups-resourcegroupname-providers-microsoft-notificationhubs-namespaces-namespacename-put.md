@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: NotificationHubsManagementClient
-  description: Azure NotificationHub client
+  title: Azure Notification Hubs API Namespaces Create Or Update
+  description: Creates/Updates a service namespace. Once created, this namespace's
+    resource manifest is immutable. This operation is idempotent.
   version: 1.0.0
 host: management.azure.com
 basePath: /

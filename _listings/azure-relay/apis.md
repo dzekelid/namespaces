@@ -30,16 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Relay API Namespaces Update
-  description: Creates or updates a namespace. Once created, this namespace's resource
-    manifest is immutable. This operation is idempotent.
+- name: Azure Relay API Namespaces List Authorization Rules
+  description: Authorization rules for a namespace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
   humanURL: ""
   baseURL: http:://management.azure.com//
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-get-postman.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/

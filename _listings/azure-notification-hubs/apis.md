@@ -26,17 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Notification Hubs API Namespaces List
-  description: Lists the available namespaces within a resourceGroup.
+- name: Azure Notification Hubs API Namespaces List All
+  description: Lists all the available namespaces within the subscription irrespective
+    of the resourceGroups.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-notification-hubs.png
   humanURL: https://docs.microsoft.com/en-us/azure/notification-hubs/
   baseURL: http:://management.azure.com//
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-providers-microsoft-notificationhubs-namespaces-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-providers-microsoft-notificationhubs-namespaces-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/rest/api/notificationhubs

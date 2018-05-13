@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Namespaces List By Subscription
+  description: Lists all the available Namespaces within a subscription, irrespective
+    of the resource groups.
   version: 1.0.0
 host: management.azure.com
 basePath: /

@@ -30,15 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Relay API Namespaces Check Name Availability
-  description: Check the give namespace name availability.
+- name: Azure Relay API Namespaces List
+  description: Lists all the available namespaces within the subscription irrespective
+    of the resourceGroups.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
   humanURL: ""
   baseURL: http:://management.azure.com//
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-providers-microsoft-relay-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-providers-microsoft-relay-namespaces-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-relay/subscriptions-subscriptionid-providers-microsoft-relay-namespaces-get-postman.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/

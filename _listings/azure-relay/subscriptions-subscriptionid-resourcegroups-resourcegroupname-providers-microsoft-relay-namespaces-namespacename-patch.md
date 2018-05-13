@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Relay API
-  description: Use these API to manage Azure Relay resources through Azure Resources
-    Manager.
+  title: Azure Relay API Namespaces Update
+  description: Creates or updates a namespace. Once created, this namespace's resource
+    manifest is immutable. This operation is idempotent.
   version: 1.0.0
 host: management.azure.com
 basePath: /

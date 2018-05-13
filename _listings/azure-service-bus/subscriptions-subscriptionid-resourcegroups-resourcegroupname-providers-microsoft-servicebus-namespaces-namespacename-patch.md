@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceBusManagementClient
-  description: Azure Service Bus client
+  title: Azure Service Bus API Namespaces Update
+  description: Updates a service namespace. Once created, this namespace's resource
+    manifest is immutable. This operation is idempotent.
   version: 1.0.0
 host: management.azure.com
 basePath: /

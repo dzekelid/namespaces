@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Namespaces Update
+  description: Creates or updates a namespace. Once created, this namespace's resource
+    manifest is immutable. This operation is idempotent.
   version: 1.0.0
 host: management.azure.com
 basePath: /

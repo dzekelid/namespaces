@@ -28,15 +28,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Service Bus API Namespaces Check Name Availability
-  description: Check the give namespace name availability.
+- name: Azure Service Bus API Namespaces List By Subscription
+  description: Gets all the available namespaces within the subscription, irrespective
+    of the resource groups.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png
   humanURL: https://azure.microsoft.com/en-us/services/service-bus/
   baseURL: http:://management.azure.com//
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-checknameavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-namespaces-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-namespaces-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/

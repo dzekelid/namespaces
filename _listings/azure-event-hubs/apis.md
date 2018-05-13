@@ -28,15 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Event Hubs API Namespaces Create Or Update Authorization Rule
-  description: Creates or updates an AuthorizationRule for a Namespace.
+- name: Azure Event Hubs API Namespaces Delete Authorization Rule
+  description: Deletes an AuthorizationRule for a Namespace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
   humanURL: https://azure.microsoft.com/en-us/services/event-hubs/
   baseURL: http:://management.azure.com//
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-authorizationrules-authorizationrulename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-authorizationrules-authorizationrulename-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-authorizationrules-authorizationrulename-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/

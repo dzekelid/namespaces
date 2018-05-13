@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: NotificationHubsManagementClient
-  description: Azure NotificationHub client
+  title: Azure Notification Hubs API Namespaces List All
+  description: Lists all the available namespaces within the subscription irrespective
+    of the resourceGroups.
   version: 1.0.0
 host: management.azure.com
 basePath: /

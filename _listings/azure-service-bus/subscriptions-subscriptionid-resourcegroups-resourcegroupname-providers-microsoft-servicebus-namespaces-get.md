@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceBusManagementClient
-  description: Azure Service Bus client
+  title: Azure Service Bus API Namespaces List By Resource Group
+  description: Gets the available namespaces within a resource group.
   version: 1.0.0
 host: management.azure.com
 basePath: /

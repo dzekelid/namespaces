@@ -16,27 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /subscriptions/{subscriptionId}/providers/Microsoft.NotificationHubs/checkNamespaceAvailability:
-    post:
-      summary: Namespaces Check Availability
-      description: Checks the availability of the given service namespace across all
-        Azure subscriptions. This is useful because the domain name is created based
-        on the service namespace name.
-      operationId: Namespaces_CheckAvailability
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-notificationhubschecknamespaceavailability-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: The namespace name
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Availability
   ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}
   : put:
       summary: Namespaces Create Or Update

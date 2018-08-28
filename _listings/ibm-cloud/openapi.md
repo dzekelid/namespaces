@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: IBM Cloud
 x-complete: 1
@@ -109,4 +108,3 @@ paths:
       - Registry
       - Namespaces
       - Namespace
----

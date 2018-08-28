@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Namespaces",
+	"description": "This is a repository of namespaces APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/namespaces.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://namespaces.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Kubernetes",
+			"x-api-slug": "kubernetes",
+			"description": "Manage a cluster of Linux containers as a single system to accelerate Dev and simplify Ops. Kubernetes is an open source orchestration system for Docker containers. It handles scheduling onto nodes in a compute cluster and actively manages workloads to ensure that their state matches the users declared intentions. Using the concepts of labels and pods, it groups the containers which make up an application into logical units for easy management and discovery.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png",
+			"humanURL": "http://kubernetes.io/",
+			"baseURL": ":///api/v1beta3/127.0.0.1:6443",
+			"tags": "Namespaces",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/kubernetes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Event Hubs",
+			"x-api-slug": "azure-event-hubs",
+			"description": "Azure Event Hubs is a hyper-scale telemetry ingestion service that collects, transforms, and stores millions of events. As a distributed streaming platform, it gives you low latency and configurable time retention, which enables you to ingress massive amounts of telemetry into the cloud and read the data from multiple applications using publish-subscribe semantics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/event-hubs/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Namespaces",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-event-hubs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Notification Hubs",
+			"x-api-slug": "azure-notification-hubs",
+			"description": "Azure Notification Hubs provide an easy-to-use, multi-platform, scaled-out push engine. With a single cross-platform API call, you can easily send targeted and personalized push notifications to any mobile platform from any cloud or on-premises backend.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-notification-hubs.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/notification-hubs/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Namespaces",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Service Bus",
+			"x-api-slug": "azure-service-bus",
+			"description": "Depend on Azure Service Bus when you need highly-reliable cloud messaging service between applications and services, even when one or more is offline. Available in every Azure region, this fully-managed service eliminates the burdens of server management and licensing. Asynchronous operations give you flexible, brokered messaging between client and server, along with structured first-in, first-out (FIFO) messaging, and publish/subscribe capabilities&mdash;excellent for tasks like order processing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/service-bus/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Namespaces",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Cloud",
+			"x-api-slug": "ibm-cloud",
+			"description": "The IBM Cloud has been built to help you solve problems and advance opportunities in a world flush with data. Whether it&rsquo;s data you possess, data outside your firewall, or data that&rsquo;s coming, the IBM Cloud helps you protect it, move it, integrate it and unlock intelligence from it &mdash; giving you what it takes to prevail in a competitive market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg",
+			"humanURL": "https://www.ibm.com/cloud/",
+			"baseURL": "https://containers-api.ng.bluemix.net//v3",
+			"tags": "Namespaces",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/ibm-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Namespaces",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/gitlab/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Namespaces",
+	"include": [
+		{
+			"name": "Kubernetes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/kubernetes/apis.yaml"
+		},
+		{
+			"name": "Azure Event Hubs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-event-hubs/apis.yaml"
+		},
+		{
+			"name": "Azure Notification Hubs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-notification-hubs/apis.yaml"
+		},
+		{
+			"name": "Azure Service Bus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/azure-service-bus/apis.yaml"
+		},
+		{
+			"name": "IBM Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/ibm-cloud/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/namespaces/master/_listings/gitlab/apis.yaml"
+		}
+	]
+}

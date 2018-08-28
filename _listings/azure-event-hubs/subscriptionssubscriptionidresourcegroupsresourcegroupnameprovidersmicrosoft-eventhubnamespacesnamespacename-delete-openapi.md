@@ -16,54 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /subscriptions/{subscriptionId}/providers/Microsoft.EventHub/CheckNameAvailability:
-    post:
-      summary: Namespaces Check Name Availability
-      description: Check the give Namespace name availability.
-      operationId: Namespaces_CheckNameAvailability
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-eventhubchecknameavailability-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters to check availability of the given Namespace name
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Name Availability
-  /subscriptions/{subscriptionId}/providers/Microsoft.EventHub/namespaces:
-    get:
-      summary: Namespaces List By Subscription
-      description: Lists all the available Namespaces within a subscription, irrespective
-        of the resource groups.
-      operationId: Namespaces_ListBySubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-eventhubnamespaces-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Subscription
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces:
-    get:
-      summary: Namespaces List By Resource Group
-      description: Lists the available Namespaces within a resource group.
-      operationId: Namespaces_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespaces-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Namespaces Resource Group
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}:
     put:
       summary: Namespaces Create Or Update
